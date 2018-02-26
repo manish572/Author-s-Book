@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Library</title>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+            <section class="mainPage" id="intro">
+                <h1>The Author's Book</h1>
+                <button class="startButton">Enter</button>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section id="authorId" class="secondPage hidden">
+                <h1>Who are you looking for?</h1>
+                <form action="">
+                    <input type="text" id="authorSearch">
+                    <input type="submit" class="submitButton">
+                </form>
+                <h1 id="page-title"></h1>       
+            </section>
+        </div>
+        <div class="displayWrapper hidden" > 
+            <div  id="label" class="label">
+                <h1>The Author's Book</h1>
+            </div>
+            <section class="displayAuthor" id="displayAuthor"></section>
+            <div class="displayBooks"></div>
+        </div>
+    </main>
+    <footer class="footer hidden">
+        <h5>Made by Manish Sabharwal (Search information provided by GoodReads API)</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

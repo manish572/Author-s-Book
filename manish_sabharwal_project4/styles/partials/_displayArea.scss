@@ -1,0 +1,74 @@
+#displayAuthor {
+   border: 1px solid lightgray;
+   display: flex;
+   flex-direction: row-reverse;
+   margin: 10px 0;
+   box-shadow: 0px 0px 120px -36px #1F2823;
+   padding: 20px;
+}
+
+.authorInformation {
+   text-align: left;
+   padding-left: 40px;
+   margin-top: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+
+#displayAuthor img {
+   padding-left: 20px;
+}
+
+.displayWrapper {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.displayBooks {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.book {
+   width: calc(50% - 40px/2);
+   margin: 10px;
+   border: 1px solid lightgray;
+   padding: 30px;
+   box-shadow: 0px 0px 120px -55px #1F2823;
+   line-height: 25px;
+}
+
+.mainId {
+   height: 200px;
+}
+
+.book h2 {
+   font-size: 20px;
+}
+
+.label {
+   background: black;
+   color: white;
+   text-align: center;
+   padding: 20px 20px;
+}
+
+.hidden {
+   display: none;
+}
+
+@media (max-width: 750px) {
+
+   .secondPage {
+      text-align: center;
+   }
+   .displayBooks {
+      flex-direction: column;
+   }
+
+   .book {
+      width: 100%;
+   }
+}

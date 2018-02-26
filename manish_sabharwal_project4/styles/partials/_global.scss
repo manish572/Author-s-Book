@@ -1,0 +1,40 @@
+html,
+body,
+.wrapper,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Ovo', serif;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: light;
+}
+
+h2 {
+   margin: 10px 0;
+}
+
+
+.isbn {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+footer {
+   background: black;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+   padding: 20px 0;
+}
+
